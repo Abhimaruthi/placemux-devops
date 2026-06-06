@@ -1,0 +1,19 @@
+# Placemux DevOps Project
+
+## Completed Infrastructure
+-VPC
+-Public Subnet
+-Private Subnet
+-Internet Gateway
+-Route Table
+-Security Group
+-EC2 Instance
+
+## Tools
+-Terraform
+-AWS
+-GitHub
+-Ubuntu
+
+## Region
+ap-south-1
