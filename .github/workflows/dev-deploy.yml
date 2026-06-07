@@ -6,13 +6,13 @@ on:
      - master
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+ build:
+  runs-on: ubuntu-latest
 
-   steps:
-     - name: Checkout code
-       uses: actions/checkout@v4
+  steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
 
-     - name: Build Backend
-       run: docker build -t placemux-backend ./backend
+    - name: Build Backend
+      run: docker build -t placemux-backend ./backend
 
